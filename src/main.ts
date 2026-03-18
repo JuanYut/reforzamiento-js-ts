@@ -8,7 +8,9 @@ import "./style.css";
 // import "./bases/06-obj-destructuring";
 // import "./bases/07-array-destructuring";
 // import "./bases/08-import-export";
-import "./bases/09-promises";
+// import "./bases/09-promises";
+// import "./bases/10-fetch-api";
+import "./bases/11-async-await";
 // import "./bases/tarea-01";
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
