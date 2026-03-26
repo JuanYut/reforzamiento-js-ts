@@ -1,5 +1,5 @@
 import type { GiphyRandomResponse } from "../data/giphy.response";
-const API_KEY = "p1u0JIZYk07wDtOnp2M5qTehW9P8bnED";
+const API_KEY = import.meta.env.VITE_GIPHY_API_KEY;
 
 const createImageInsideDOM = (url: string) => {
   const imageElement = document.createElement("img");

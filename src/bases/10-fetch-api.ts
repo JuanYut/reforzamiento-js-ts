@@ -1,6 +1,6 @@
 import type { GiphyRandomResponse } from "../data/giphy.response";
 
-const API_KEY = "p1u0JIZYk07wDtOnp2M5qTehW9P8bnED";
+const API_KEY = import.meta.env.VITE_GIPHY_API_KEY;
 
 const myRequest = fetch(
   `https://api.giphy.com/v1/stickers/random?api_key=${API_KEY}&tag=&rating=g`,
